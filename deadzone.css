@@ -1,0 +1,38 @@
+:is(.class-deadzone, .class-死区, .class-死區) {
+    --sd-border: var(--sd-border-deadzone);
+    --sd-symbol: var(--sd-symbol-secondary);
+}
+:is(.class-deadzone, .class-死区, .class-死區).top-box, :is(.class-deadzone, .class-死区, .class-死區).diamond-color {
+    background: rgb(var(--class-deadzone));
+}
+:is(.class-deadzone, .class-死区, .class-死區).top-box .bottom-text p {
+    display: none;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-deadzone, .class-死区, .class-死區).top-box .bottom-text::after {
+    content: "等级：死区";
+}
+.lang-tr :is(.class-deadzone, .class-死区, .class-死區).top-box .bottom-text::after {
+    content: "等級：死區";
+}
+:is(.class-deadzone, .class-死区, .class-死區) .header-diamond .diamond-image {
+    -webkit-mask: var(--img-deadzone) center/80% no-repeat;
+            mask: var(--img-deadzone) center/80% no-repeat;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-deadzone, .class-死区, .class-死區).bottom-box ul li:nth-child(1) > .default::after {
+    content: "环境危害";
+}
+.lang-tr :is(.class-deadzone, .class-死区, .class-死區).bottom-box ul li:nth-child(1) > .default::after {
+    content: "環境危害";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-deadzone, .class-死区, .class-死區).bottom-box ul li:nth-child(2) > .default::after {
+    content: "极度不宜居";
+}
+.lang-tr :is(.class-deadzone, .class-死区, .class-死區).bottom-box ul li:nth-child(2) > .default::after {
+    content: "極度不宜居";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-deadzone, .class-死区, .class-死區).bottom-box ul li:nth-child(3) > .default::after {
+    content: "潜在异常实体";
+}
+.lang-tr :is(.class-deadzone, .class-死区, .class-死區).bottom-box ul li:nth-child(3) > .default::after {
+    content: "潛在異常實體";
+}
