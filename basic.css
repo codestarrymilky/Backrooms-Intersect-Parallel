@@ -1,0 +1,152 @@
+.top-box {
+    background-color: rgb(var(--class-1));
+    width: 100%;
+    height: 5.25rem;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: solid rgb(var(--sd-border));
+    border-width: 0.65rem 0.3125rem;
+    position: relative;
+}
+.top-box::before {
+    content: "";
+    position: absolute;
+    background: var(--header-img-bg);
+    mix-blend-mode: luminosity;
+    opacity: 0.15;
+    height: 100%;
+    width: 100%;
+    padding: 0.65rem 0.3125rem;
+    top: -0.65rem;
+    left: -0.3125rem;
+}
+.top-box .gradient-box {
+    background: -webkit-gradient(linear, left top, right top, from(rgba(var(--sd-border), 1)), color-stop(36%, rgba(235, 186, 13, 0)));
+    background: linear-gradient(90deg, rgba(var(--sd-border), 1) 0%, rgba(235, 186, 13, 0) 36%);
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.top-box .gradient-box div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.top-box .top-text p {
+    font-family: var(--sd-font);
+    font-size: 2.14rem;
+    font-weight: bold;
+    --wght: bold;
+    color: rgb(var(--sd-text));
+    position: relative;
+    margin: 0;
+    line-height: 2.16rem;
+}
+.top-box .bottom-text p, .top-box .bottom-text::after {
+    font-family: var(--sd-font);
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+    --wght: 500;
+    color: rgb(var(--sd-text));
+    position: relative;
+    margin: 0;
+    line-height: 2rem;
+}
+
+
+
+.header-diamond {
+    position: absolute;
+    height: 15.735619469rem;
+    width: 16.642699115rem;
+    top: -1.84375rem;
+    right: -0.8125rem;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+    z-index: 4;
+}
+.header-diamond .bg {
+    position: absolute;
+    -webkit-mask: var(--bg-mask);
+            mask: var(--bg-mask);
+    background-color: rgb(var(--sd-border));
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.header-diamond .diamondy {
+    position: absolute;
+    -webkit-mask: var(--diamond-mask);
+            mask: var(--diamond-mask);
+    height: 100%;
+    width: 100%;
+}
+.header-diamond .diamond-color {
+    background-color: rgb(var(--class-1));
+}
+.header-diamond .diamond-pattern {
+    background: var(--pattern-img);
+    mix-blend-mode: luminosity;
+    opacity: 0.15;
+    z-index: 3;
+}
+.header-diamond .diamond-image {
+    position: absolute;
+    -webkit-mask: var(--header-diamond) center/95% no-repeat;
+            mask: var(--header-diamond) center/95% no-repeat;
+    height: 100%;
+    width: 100%;
+    background: rgb(var(--sd-symbol));
+    top: 3px;
+    left: 3px;
+    z-index: 4;
+}
+
+
+.bottom-box {
+    margin: 1.5rem 0 3rem;
+}
+.bottom-box ul li {
+    font-family: var(--sd-font);
+    font-size: 1.5rem;
+    font-weight: bold;
+    --wght: bold;
+    color: rgb(var(--sd-bullets));
+    margin: 0.2rem 0 0.2rem 0.6rem;
+    line-height: 1rem;
+    list-style: none;
+}
+.bottom-box ul li::before {
+    content: "";
+    background: rgb(var(--sd-bullets));
+    display: block;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    position: relative;
+    height: 0.75rem;
+    width: 0.75rem;
+    left: -1.65rem;
+    top: 0.825rem;
+}
+
+
+div[class*=class] ul li span[class$="}"] {
+    display: none;
+}
+
+.bottom-box ul li .default {
+    display: none;
+    font-size: 0;
+}
+.bottom-box ul li .default::after {
+    font-size: 1.5rem;
+}
+
+div[class*=class] ul li span[class$="}"] + .default {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
