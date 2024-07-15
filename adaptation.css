@@ -1,8 +1,8 @@
-@media only screen and (max-width: 60rem) {
+
     .header-diamond {
         opacity: 0;
     }
-}
+
 
 @media only screen and (max-width: 440px) {
     .top-box .top-text p {
