@@ -1,0 +1,11 @@
+[class*=color-]:not([class*="color-{"]), .header-diamond [class*=color-]:not([class*="color-{"]) {
+    background-color: var(--custom-color);
+}
+
+.top-box .header-diamond .diamond-image:not([style*="}"]) {
+    background: var(--custom-image) center/80% no-repeat;
+    -webkit-mask: var(--img-diamond);
+            mask: var(--img-diamond);
+    top: 0;
+    left: 0;
+}
