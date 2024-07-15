@@ -1,0 +1,31 @@
+:is(.class-amended, .class-修正, .class-运变, .class-運變).top-box, :is(.class-amended, .class-修正, .class-运变, .class-運變).diamond-color {
+    background: rgb(var(--class-amended));
+}
+:is(.class-amended, .class-修正, .class-运变, .class-運變).top-box .bottom-text p {
+    display: none;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-amended, .class-修正, .class-运变, .class-運變).top-box .bottom-text::after {
+    content: "等级：修正";
+}
+.lang-tr :is(.class-amended, .class-修正, .class-运变, .class-運變).top-box .bottom-text::after {
+    content: "等級：修正";
+}
+:is(.class-amended, .class-修正, .class-运变, .class-運變).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-amended) center/80% no-repeat;
+            mask: var(--img-amended) center/80% no-repeat;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-amended, .class-修正, .class-运变, .class-運變).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不安全且不稳定";
+}
+.lang-tr :is(.class-amended, .class-修正, .class-运变, .class-運變).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不安全且不穩定";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-amended, .class-修正, .class-运变, .class-運變).bottom-box ul li:nth-child(2) > .default::after {
+    content: "未知实体数量";
+}
+.lang-tr :is(.class-amended, .class-修正, .class-运变, .class-運變).bottom-box ul li:nth-child(2) > .default::after {
+    content: "未知實體數量";
+}
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-amended, .class-修正, .class-运变, .class-運變).bottom-box ul li:nth-child(3) > .default::after {
+    content: "文件被篡改";
+}
