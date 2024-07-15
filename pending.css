@@ -1,0 +1,34 @@
+:is(.class-pending, .class-等待分级, .class-等待分級) {
+    --sd-symbol: var(--sd-border);
+}
+:is(.class-pending, .class-等待分级, .class-等待分級).top-box, :is(.class-pending, .class-等待分级, .class-等待分級).diamond-color {
+    background: rgb(var(--class-pending));
+}
+:is(.class-pending, .class-等待分级, .class-等待分級).top-box .bottom-text p {
+    display: none;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-pending, .class-等待分级, .class-等待分級).top-box .bottom-text::after {
+    content: "等待分级";
+}
+.lang-tr :is(.class-pending, .class-等待分级, .class-等待分級).top-box .bottom-text::after {
+    content: "等待分級";
+}
+:is(.class-pending, .class-等待分级, .class-等待分級) .header-diamond .diamond-image {
+    -webkit-mask: var(--img-pending) center/80% no-repeat;
+            mask: var(--img-pending) center/80% no-repeat;
+}
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-pending, .class-等待分级, .class-等待分級).bottom-box ul li:nth-child(1) > .default::after {
+    content: "安全性未知";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-pending, .class-等待分级, .class-等待分級).bottom-box ul li:nth-child(2) > .default::after {
+    content: "不稳定";
+}
+.lang-tr :is(.class-pending, .class-等待分级, .class-等待分級).bottom-box ul li:nth-child(2) > .default::after {
+    content: "不穩定";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-pending, .class-等待分级, .class-等待分級).bottom-box ul li:nth-child(3) > .default::after {
+    content: "未探明实体存在";
+}
+.lang-tr :is(.class-pending, .class-等待分级, .class-等待分級).bottom-box ul li:nth-child(3) > .default::after {
+    content: "未探明實體存在";
+}
