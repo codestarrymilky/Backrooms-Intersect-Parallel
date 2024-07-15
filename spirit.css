@@ -2,6 +2,16 @@
     background: rgb(var(--class-spirit));
 }
 
+:is(.class-Ψ, .class-精神危害).top-box .bottom-text p {
+    display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-Ψ, .class-精神危害).top-box .bottom-text::after {
+    content: "等级 Ψ";
+}
+.lang-tr :is(.class-Ψ, .class-精神危害).top-box .bottom-text::after {
+    content: "等级 Ψ";
+}
 
 :is(.class-Ψ, .class-精神危害).top-box .header-diamond .diamond-image {
     -webkit-mask: var(--img-spirit) center/80% no-repeat;
