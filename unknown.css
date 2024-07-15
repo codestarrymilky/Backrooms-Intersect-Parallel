@@ -1,0 +1,52 @@
+:is(.class-unknown, .class-未知).top-box, :is(.class-unknown, .class-未知).diamond-color {
+    background-color: rgb(var(--class-unknown));
+}
+:is(.class-unknown, .class-未知).top-box, :is(.class-unknown, .class-未知) {
+    --sd-border: 0, 0, 0;
+    --sd-symbol: 255, 255, 255;
+}
+:is(.class-unknown, .class-未知).top-box .bottom-text p {
+    display: none;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-unknown, .class-未知).top-box .bottom-text::after {
+    content: "未定分级";
+}
+.lang-tr :is(.class-unknown, .class-未知).top-box .bottom-text::after {
+    content: "未定分級";
+}
+:is(.class-unknown, .class-未知).top-box::before,
+:is(.class-unknown, .class-未知).top-box .header-diamond .diamond-pattern {
+    opacity: 0.5;
+}
+:is(.class-unknown, .class-未知).top-box .gradient-box {
+    background: none;
+}
+:is(.class-unknown, .class-未知).top-box .header-diamond {
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+:is(.class-unknown, .class-未知).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-unknown) center/80% no-repeat;
+            mask: var(--img-unknown) center/80% no-repeat;
+}
+:is(.class-unknown, .class-未知).bottom-box ul li {
+    color: rgb(var(--sd-bullets));
+}
+:is(.class-unknown, .class-未知).bottom-box ul li::before {
+    background-color: rgb(var(--sd-bullets));
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-unknown, .class-未知).bottom-box ul li:nth-child(1) > .default::after {
+    content: "性质未解明";
+}
+.lang-tr :is(.class-unknown, .class-未知).bottom-box ul li:nth-child(1) > .default::after {
+    content: "性質未解明";
+}
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-unknown, .class-未知).bottom-box ul li:nth-child(2) > .default::after {
+    content: "信息未知";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-unknown, .class-未知).bottom-box ul li:nth-child(3) > .default::after {
+    content: "未探明实体";
+}
+.lang-tr :is(.class-unknown, .class-未知).bottom-box ul li:nth-child(3) > .default::after {
+    content: "未探明實體";
+}
