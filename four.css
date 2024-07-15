@@ -1,0 +1,25 @@
+.top-box.class-4,
+.diamond-color.class-4 {
+    background: rgb(var(--class-4));
+}
+
+.top-box.class-4 .header-diamond .diamond-image {
+    -webkit-mask: var(--img-4) center/80% no-repeat;
+            mask: var(--img-4) center/80% no-repeat;
+}
+
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) .bottom-box.class-4 ul li:nth-child(1) > .default::after {
+    content: "不安全";
+}
+:is(.sd-container[class*="{"], .lang-cn) .bottom-box.class-4 ul li:nth-child(2) > .default::after {
+    content: "不稳定";
+}
+.lang-tr .bottom-box.class-4 ul li:nth-child(2) > .default::after {
+    content: "不穩定";
+}
+:is(.sd-container[class*="{"], .lang-cn) .bottom-box.class-4 ul li:nth-child(3) > .default::after {
+    content: "中量实体";
+}
+.lang-tr .bottom-box.class-4 ul li:nth-child(3) > .default::after {
+    content: "中量實體";
+}
