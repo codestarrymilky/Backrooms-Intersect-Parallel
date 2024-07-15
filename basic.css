@@ -150,3 +150,16 @@ div[class*=class] ul li span[class$="}"] + .default {
     display: -ms-flexbox;
     display: flex;
 }
+
+.sd-container {
+    padding: 1.3rem 0 0.1rem;
+}
+
+.lang-tr {
+    --sd-font: Poppins, Inter, Noto Sans TC, Noto Sans SC, Arimo, Verdana, Geneva, sans-serif;
+}
+
+:is(.sd-container[class*="{"], .sd-container[class*=cn], .lang-cn) .lang-tr,
+.lang-tr .lang-cn {
+    display: none;
+}
