@@ -1,0 +1,36 @@
+:is(.class-E,.class-环境危害,.class-環境危害).top-box, :is(.class-E,.class-环境危害,.class-環境危害).diamond-color {
+    background: rgb(var(--class-E));
+}
+
+
+:is(.class-E,.class-环境危害,.class-環境危害).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-E) center/80% no-repeat;
+            mask: var(--img-E) center/80% no-repeat;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-E,.class-环境危害,.class-環境危害).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不安全";
+}
+.lang-tr :is(.class-E,.class-环境危害,.class-環境危害).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不安全";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-E,.class-环境危害,.class-環境危害).bottom-box ul li:nth-child(2) > .default::after {
+    content: "环境敌对";
+}
+.lang-tr :is(.class-E,.class-环境危害,.class-環境危害).bottom-box ul li:nth-child(2) > .default::after {
+    content: "環境敵對";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-E,.class-环境危害,.class-環境危害).bottom-box ul li:nth-child(3) > .default::after {
+    content: "非实体危害";
+}
+.lang-tr :is(.class-E,.class-环境危害,.class-環境危害).bottom-box ul li:nth-child(3) > .default::after {
+    content: "非實體威脅";
+}
+
+/* 1E */
+:is(.class-1E, .class-1E-环境危害).top-box, :is(.class-1E, .class-1E-环境危害).diamond-color {
+    background: rgb(var(--class-1E));
+}
+
+.lang-tr :is(.class-1E, .class-1E-环境危害).top-box .bottom-text::after {
+    content: "等級 1E-环境危害";
+}
