@@ -1,0 +1,37 @@
+:is(.class-omega, .class-终结, .class-終結) {
+    --sd-symbol: var(--sd-symbol-secondary);
+}
+:is(.class-omega, .class-终结, .class-終結).top-box, :is(.class-omega, .class-终结, .class-終結).diamond-color {
+    background: rgb(var(--class-omega));
+}
+:is(.class-omega, .class-终结, .class-終結).top-box .bottom-text p {
+    display: none;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-omega, .class-终结, .class-終結).top-box .bottom-text::after {
+    content: "终结";
+}
+.lang-tr :is(.class-omega, .class-终结, .class-終結).top-box .bottom-text::after {
+    content: "終結";
+}
+:is(.class-omega, .class-终结, .class-終結).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-omega) center/80% no-repeat;
+            mask: var(--img-omega) center/80% no-repeat;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-omega, .class-终结, .class-終結).bottom-box ul li:nth-child(1) > .default::after {
+    content: "隐藏的档案";
+}
+.lang-tr :is(.class-omega, .class-终结, .class-終結).bottom-box ul li:nth-child(1) > .default::after {
+    content: "隱藏的檔案";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-omega, .class-终结, .class-終結).bottom-box ul li:nth-child(2) > .default::after {
+    content: "机密性质";
+}
+.lang-tr :is(.class-omega, .class-终结, .class-終結).bottom-box ul li:nth-child(2) > .default::after {
+    content: "機密性質";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-omega, .class-终结, .class-終結).bottom-box ul li:nth-child(3) > .default::after {
+    content: "受保护的实体";
+}
+.lang-tr :is(.class-omega, .class-终结, .class-終結).bottom-box ul li:nth-child(3) > .default::after {
+    content: "受保護的實體";
+}
