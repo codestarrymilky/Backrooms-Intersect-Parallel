@@ -17,15 +17,13 @@
 }
 
 :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).top-box .header-diamond .diamond-image {
-    -webkit-mask: var(--img-1E) center/80% no-repeat;
-            mask: var(--img-1E) center/80% no-repeat;
+    -webkit-mask: var(--img-4E) center/80% no-repeat;
+            mask: var(--img-4E) center/80% no-repeat;
 }
-:is(.sd-container[class*="{"], .lang-cn) :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(1) > .default::after {
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(1) > .default::after {
     content: "不安全";
 }
-.lang-tr :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(1) > .default::after {
-    content: "不安全";
-}
+
 :is(.sd-container[class*="{"], .lang-cn) :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(2) > .default::after {
     content: "不稳定";
 }
