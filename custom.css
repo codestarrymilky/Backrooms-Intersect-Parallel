@@ -1,4 +1,5 @@
-[class*=color-]:not([class*="color-{"]), .header-diamond [class*=color-]:not([class*="color-{"]) {
+[class*=color-]:not([class*="color-{"]),
+.header-diamond div[class*=color-]:not([class*="color-{"]) {
     background-color: var(--custom-color);
 }
 
