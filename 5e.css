@@ -1,0 +1,40 @@
+:is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).top-box, :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).diamond-color {
+    background: rgb(var(--class-5E));
+}
+
+:is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).top-box .bottom-text p {
+    display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).top-box .bottom-text::after {
+    content: "等级 5E-环境灾难";
+}
+
+
+
+.lang-tr :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).top-box .bottom-text::after {
+    content: "等級 5E-環境災難";
+}
+
+:is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-1E) center/80% no-repeat;
+            mask: var(--img-1E) center/80% no-repeat;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).bottom-box ul li:nth-child(1) > .default::after {
+    content: "难以存活";
+}
+.lang-tr :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).bottom-box ul li:nth-child(1) > .default::after {
+    content: "難以存活";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).bottom-box ul li:nth-child(2) > .default::after {
+    content: "不稳定";
+}
+.lang-tr :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).bottom-box ul li:nth-child(2) > .default::after {
+    content: "不穩定";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).bottom-box ul li:nth-child(3) > .default::after {
+    content: "环境灾难";
+}
+.lang-tr :is(.class-5E, .class-5E-环境灾难, .class-5E-環境災難).bottom-box ul li:nth-child(3) > .default::after {
+    content: "環境災難";
+}
