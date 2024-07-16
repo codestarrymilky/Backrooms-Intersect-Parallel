@@ -6,7 +6,7 @@
     display: none;
 }
 
-:is(.sd-container[class*="{"], .lang-cn) :is(等级 E-Environmental).top-box .bottom-text::after {
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-E,.class-环境危害,.class-環境危害).top-box .bottom-text::after {
     content: "等级 E-Environmental";
 }
 .lang-tr :is(.class-E,.class-环境危害,.class-環境危害).top-box .bottom-text::after {
