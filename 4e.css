@@ -1,0 +1,40 @@
+:is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).top-box, :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).diamond-color {
+    background: rgb(var(--class-4E));
+}
+
+:is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).top-box .bottom-text p {
+    display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).top-box .bottom-text::after {
+    content: "等级 4E-环境灾难";
+}
+
+
+
+.lang-tr :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).top-box .bottom-text::after {
+    content: "等級 4E-環境災難";
+}
+
+:is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-1E) center/80% no-repeat;
+            mask: var(--img-1E) center/80% no-repeat;
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不安全";
+}
+.lang-tr :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不安全";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(2) > .default::after {
+    content: "不稳定";
+}
+.lang-tr :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(2) > .default::after {
+    content: "不穩定";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(3) > .default::after {
+    content: "环境威胁极大";
+}
+.lang-tr :is(.class-4E,.class-4E-环境灾难,.class-4E-環境災難).bottom-box ul li:nth-child(3) > .default::after {
+    content: "環境威脅極大";
+}
