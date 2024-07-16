@@ -2,6 +2,16 @@
     background: rgb(var(--class-1E));
 }
 
+:is(.class-1E, .class-1E-环境危害).top-box .bottom-text p {
+    display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-1E, .class-1E-环境危害).top-box .bottom-text::after {
+    content: "等级 1E-环境危害";
+}
+
+
+
 .lang-tr :is(.class-1E, .class-1E-环境危害).top-box .bottom-text::after {
     content: "等級 1E-环境危害";
 }
