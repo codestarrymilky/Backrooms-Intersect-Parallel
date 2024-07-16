@@ -2,6 +2,17 @@
     background: rgb(var(--class-E));
 }
 
+:is(.class-E,.class-环境危害,.class-環境危害).top-box .bottom-text p {
+    display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(等级 E-Environmental).top-box .bottom-text::after {
+    content: "等级 E-Environmental";
+}
+.lang-tr :is(.class-E,.class-环境危害,.class-環境危害).top-box .bottom-text::after {
+    content: "等級 E-Environmental";
+}
+
 
 :is(.class-E,.class-环境危害,.class-環境危害).top-box .header-diamond .diamond-image {
     -webkit-mask: var(--img-E) center/80% no-repeat;
