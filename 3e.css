@@ -1,40 +1,40 @@
-:is(.class-3E,class-3E-环境危害).top-box, :is(.class-3E,class-3E-环境危害).diamond-color {
+:is(.class-3E,class-3E-环境危害,.class-3E-環境危害).top-box, :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).diamond-color {
     background: rgb(var(--class-3E));
 }
 
-:is(.class-3E,class-3E-环境危害).top-box .bottom-text p {
+:is(.class-3E,class-3E-环境危害,.class-3E-環境危害).top-box .bottom-text p {
     display: none;
 }
 
-:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害).top-box .bottom-text::after {
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).top-box .bottom-text::after {
     content: "等级 3E-环境危害";
 }
 
 
 
-.lang-tr :is(.class-3E,class-3E-环境危害).top-box .bottom-text::after {
-    content: "等級 3E-环境危害";
+.lang-tr :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).top-box .bottom-text::after {
+    content: "等級 3E-環境危害";
 }
 
-:is(.class-3E,class-3E-环境危害).top-box .header-diamond .diamond-image {
-    -webkit-mask: var(--img-3E) center/80% no-repeat;
-            mask: var(--img-3E) center/80% no-repeat;
+:is(.class-3E,class-3E-环境危害,.class-3E-環境危害).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-1E) center/80% no-repeat;
+            mask: var(--img-1E) center/80% no-repeat;
 }
-:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害).bottom-box ul li:nth-child(1) > .default::after {
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).bottom-box ul li:nth-child(1) > .default::after {
     content: "不安全";
 }
-.lang-tr :is(.class-3E,class-3E-环境危害).bottom-box ul li:nth-child(1) > .default::after {
+.lang-tr :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).bottom-box ul li:nth-child(1) > .default::after {
     content: "不安全";
 }
-:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害).bottom-box ul li:nth-child(2) > .default::after {
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).bottom-box ul li:nth-child(2) > .default::after {
     content: "不稳定";
 }
-.lang-tr :is(.class-3E,class-3E-环境危害).bottom-box ul li:nth-child(2) > .default::after {
+.lang-tr :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).bottom-box ul li:nth-child(2) > .default::after {
     content: "不穩定";
 }
-:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害).bottom-box ul li:nth-child(3) > .default::after {
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).bottom-box ul li:nth-child(3) > .default::after {
     content: "疑似环境灾难";
 }
-.lang-tr :is(.class-3E,class-3E-环境危害).bottom-box ul li:nth-child(3) > .default::after {
+.lang-tr :is(.class-3E,class-3E-环境危害,.class-3E-環境危害).bottom-box ul li:nth-child(3) > .default::after {
     content: "疑似環境災難";
 }
