@@ -1,3 +1,11 @@
+:is(.class-1E, .class-1E-环境危害).top-box, :is(.class-1E, .class-1E-环境危害).diamond-color {
+    background: rgb(var(--class-1E));
+}
+
+.lang-tr :is(.class-1E, .class-1E-环境危害).top-box .bottom-text::after {
+    content: "等級 1E-环境危害";
+}
+
 :is(.class-1E, .class-1E-环境危害).top-box .header-diamond .diamond-image {
     -webkit-mask: var(--img-1E) center/80% no-repeat;
             mask: var(--img-1E) center/80% no-repeat;
