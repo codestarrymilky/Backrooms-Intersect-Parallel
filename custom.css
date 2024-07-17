@@ -1,0 +1,8 @@
+.top-box.ture,
+.diamond-color.ture{
+  background: var(--custom-color);
+}
+
+.diamond-image.ture{
+  background: var(--custom-background);
+}
