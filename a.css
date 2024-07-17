@@ -25,7 +25,7 @@
 }
 
 :is(.sd-container[class*="{"], .lang-cn) :is(.class-A, .class-א,.class-Aleph).bottom-box ul li:nth-child(2) > .default::after {
-    content: "时间扭曲";
+    content: "时空扭曲";
 }
 .lang-tr :is(.class-A, .class-א,.class-Aleph).bottom-box ul li:nth-child(2) > .default::after {
     content: "時空扭曲";
