@@ -1,0 +1,10 @@
+div[class*=top-box]:not([class*=color-{),
+div[class*=diamond-color]:not([class*=color-{) {
+    background: rgb(var(--custom-color));
+}
+
+div[class*=top-box]:not([class*=color-{) .header-diamond .diamond-image {
+    -webkit-mask: var(--custom-image) center/80% no-repeat;
+            mask: var(--custom-image) center/80% no-repeat;
+}
+
