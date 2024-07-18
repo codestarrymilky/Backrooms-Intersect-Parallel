@@ -1,11 +1,11 @@
-[class^=color-# top-box],
+[class*=color-# top-box],
 [class*=() top-box],
-[class^=color-# diamondy diamond-color],
+[class*=color-# diamondy diamond-color],
 [class*=() diamond-color]{
   background: var(--custom-color);
 }
 
-[class^=color-# diamondy diamond-image],
+[class*=color-# diamondy diamond-image],
 [class*=() diamond-image]{
   background: var(--custom-img);
 }
