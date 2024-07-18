@@ -1,17 +1,17 @@
-.top-box[title*=#],
-.top-box[title*=rgb],
-.top-box[title*=hsl],
-.top-box[title*=var],
-.diamond-color[title*=#],
-.diamond-color[title*=rgb],
-.diamond-color[title*=hsl],
-.diamond-color[title*=var]{
+.top-box[class*=color-#],
+.top-box[class*=color-rgb],
+.top-box[class*=color-hsl],
+.top-box[class*=color-var],
+.diamond-color[class*=color-#],
+.diamond-color[class*=color-rgb],
+.diamond-color[class*=color-hsl],
+.diamond-color[class*=color-var]{
   background: var(--custom-color);
 }
 
-.diamond-image[title*=#],
-.diamond-image[title*=rgb],
-.diamond-image[title*=hsl],
-.diamond-image[title*=var]{
+.diamond-image[class*=color-#],
+.diamond-image[class*=color-rgb],
+.diamond-image[class*=color-hsl],
+.diamond-image[class*=color-var]{
   background: var(--custom-img);
 }
