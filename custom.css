@@ -12,6 +12,6 @@
 .diamond-image[title^=#],
 .diamond-image[title^=rgb],
 .diamond-image[title^=hsl],
-.diamond-image[title^=var],{
+.diamond-image[title^=var]{
   background: var(--custom-img);
 }
