@@ -1,8 +1,17 @@
-.top-box.ture,
-.diamond-color.ture{
+.top-box[title^=#],
+.top-box[title^=rgb],
+.top-box[title^=hsl],
+.top-box[title^=var],
+.diamond-color[title^=#],
+.diamond-color[title^=rgb],
+.diamond-color[title^=hsl],
+.diamond-color[title^=var]{
   background: var(--custom-color);
 }
 
-.diamond-image.ture{
+.diamond-image[title^=#],
+.diamond-image[title^=rgb],
+.diamond-image[title^=hsl],
+.diamond-image[title^=var],{
   background: var(--custom-img);
 }
