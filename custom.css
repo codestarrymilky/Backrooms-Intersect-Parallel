@@ -1,5 +1,5 @@
-[class*=color-# top-box],
-[class*=() top-box],
+.top-box[class*=color-#],
+.top-boc[class*=()],
 [class*=color-# diamondy diamond-color],
 [class*=() diamond-color]{
   background: var(--custom-color);
