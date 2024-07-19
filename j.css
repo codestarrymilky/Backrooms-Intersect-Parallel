@@ -1,0 +1,27 @@
+:is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).top-box, :is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).diamond-color {
+    background: rgb(var(--class-j));
+}
+
+:is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-j) center/80% no-repeat;
+            mask: var(--img-j) center/80% no-repeat;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).bottom-box ul li:nth-child(1) > .default::after {
+    content: "重要档案";
+}
+.lang-tr :is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).bottom-box ul li:nth-child(1) > .default::after {
+    content: "重要檔案";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).bottom-box ul li:nth-child(2) > .default::after {
+    content: "多重现实";
+}
+.lang-tr :is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).bottom-box ul li:nth-child(2) > .default::after {
+    content: "多重現實";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).bottom-box ul li:nth-child(3) > .default::after {
+    content: "未知现象";
+}
+.lang-tr :is(.class-積分, .class-积分, .class-不可或缺, .class-整體, .class-整体).bottom-box ul li:nth-child(3) > .default::after {
+    content: "未知現象";
+}
