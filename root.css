@@ -34,6 +34,20 @@
     --class-ch: 255,255,255;
     --class-A: 208,133,185;
     --class-j: 205,238,255;
+    --class-l: 255,255,255;
+    --class-c: var(--class-l);
+    --class-s: 151,127,215;
+    --class-i: 225,153,152;
+    --class-w: 199,199,199;
+    --class-c-h: 26,128,111;
+    --class-ha: var(--class-c-h);
+    --class-dr: var(--class-deadzone);
+    --class-dc: var(--class-deadzone);
+    --class-du: 121,174,201;
+    --class-dd: 130,124,201;
+    --class-r: var(--class-w);
+    --class-b: 213,113,113;
+    --class-f: 76,179,238;
 /* ==================IMG======================= */
 /* 背景IMG */
     --na-bgimg:
