@@ -1,7 +1,7 @@
-.top-box[class*=#],
-.top-box[class*=(],
-.diamond-color[class*=#],
-.diamond-color[class*=(]{
+.top-box[class*="#"],
+.top-box[class*="("],
+.diamond-color[class*="#"],
+.diamond-color[class*="("]{
   background: var(--custom-color);
 }
 
