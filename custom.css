@@ -5,7 +5,7 @@
   background: var(--custom-color);
 }
 
-[class*=color-# diamondy diamond-image],
-[class*=() diamond-image]{
+.diamond-image[class*="#"],
+.diamond-image[class*="("]{
   background: var(--custom-img);
 }
