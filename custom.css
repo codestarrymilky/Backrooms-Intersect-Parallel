@@ -1,13 +1,13 @@
-.top-box[class*=a],.top-box[class*=b],.top-box[class*=c],.top-box[class*=d],.top-box[class*=f],.top-box[class*=g],.top-box[class*=h],.top-box[class*=i],.top-box[class*=k],.top-box[class*=l],.top-box[class*=m],.top-box[class*=n],.top-box[class*=o],.top-box[class*=p],.top-box[class*=s],.top-box[class*=t],.top-box[class*=v],.top-box[class*=w],
+.top-box[class^=a],.top-box[class^=b],.top-box[class^=c],.top-box[class^=d],.top-box[class^=f],.top-box[class^=g],.top-box[class^=h],.top-box[class^=i],.top-box[class^=k],.top-box[class^=l],.top-box[class^=m],.top-box[class^=n],.top-box[class^=o],.top-box[class^=p],.top-box[class^=s],.top-box[class^=t],.top-box[class^=v],.top-box[class^=w],
 .top-box[class*="#"],
 .top-box[class*="("],
-.diamond-color[class*=a],.diamond-color[class*=b],.diamond-color[class*=c],.diamond-color[class*=d],.diamond-color[class*=f],.diamond-color[class*=g],.diamond-color[class*=h],.diamond-color[class*=i],.diamond-color[class*=k],.diamond-color[class*=l],.diamond-color[class*=m],.diamond-color[class*=n],.diamond-color[class*=o],.diamond-color[class*=p],.diamond-color[class*=s],.diamond-color[class*=t],.diamond-color[class*=v],.diamond-color[class*=w],
+.diamond-color[class^=a],.diamond-color[class^=b],.diamond-color[class^=c],.diamond-color[class^=d],.diamond-color[class^=f],.diamond-color[class^=g],.diamond-color[class^=h],.diamond-color[class^=i],.diamond-color[class^=k],.diamond-color[class^=l],.diamond-color[class^=m],.diamond-color[class^=n],.diamond-color[class^=o],.diamond-color[class^=p],.diamond-color[class^=s],.diamond-color[class^=t],.diamond-color[class^=v],.diamond-color[class^=w],
 .diamond-color[class*="#"],
 .diamond-color[class*="("]{
   background: var(--custom-color);
 }
 
-.diamond-image[class*=a],.diamond-image[class*=b],.diamond-image[class*=c],.diamond-image[class*=d],.diamond-image[class*=f],.diamond-image[class*=g],.diamond-image[class*=h],.diamond-image[class*=i],.diamond-image[class*=k],.diamond-image[class*=l],.diamond-image[class*=m],.diamond-image[class*=n],.diamond-image[class*=o],.diamond-image[class*=p],.diamond-image[class*=s],.diamond-image[class*=t],.diamond-image[class*=v],.diamond-image[class*=w],
+.diamond-image[class^=a],.diamond-image[class^=b],.diamond-image[class^=c],.diamond-image[class^=d],.diamond-image[class^=f],.diamond-image[class^=g],.diamond-image[class^=h],.diamond-image[class^=i],.diamond-image[class^=k],.diamond-image[class^=l],.diamond-image[class^=m],.diamond-image[class^=n],.diamond-image[class^=o],.diamond-image[class^=p],.diamond-image[class^=s],.diamond-image[class^=t],.diamond-image[class^=v],.diamond-image[class^=w],
 .diamond-image[class*="#"],
 .diamond-image[class*="("]{
   background: var(--custom-img);
