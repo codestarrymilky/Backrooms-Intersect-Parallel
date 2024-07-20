@@ -7,8 +7,8 @@
   background: var(--custom-color);
 }
 
-.diamond-image[class^=a],.diamond-image[class^=b],.diamond-image[class^=c],.diamond-image[class^=d],.diamond-image[class^=f],.diamond-image[class^=g],.diamond-image[class^=h],.diamond-image[class^=i],.diamond-image[class^=k],.diamond-image[class^=l],.diamond-image[class^=m],.diamond-image[class^=n],.diamond-image[class^=o],.diamond-image[class^=p],.diamond-image[class^=s],.diamond-image[class^=t],.diamond-image[class^=v],.diamond-image[class^=w],
-.diamond-image[class*="#"],
-.diamond-image[class*="("]{
+.diamond-image[class^=http],
+.diamond-image[class^=https],
+.diamond-image[class^=date]{
   background: var(--custom-img);
 }
