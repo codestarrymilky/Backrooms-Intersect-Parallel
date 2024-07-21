@@ -7,13 +7,13 @@
 }
 
 :is(.sd-container[class*="{"], .lang-cn) :is(.class-1E, .class-1E-环境危害,.class-1E-環境危害).top-box .bottom-text::after {
-    content: "等级 1E-環境危害";
+    content: "等级 1E-环境危害";
 }
 
 
 
 .lang-tr :is(.class-1E, .class-1E-环境危害,.class-1E-環境危害).top-box .bottom-text::after {
-    content: "等級 1E-环境危害";
+    content: "等級 1E-環境危害";
 }
 
 :is(.class-1E, .class-1E-环境危害,.class-1E-環境危害).top-box .header-diamond .diamond-image {
