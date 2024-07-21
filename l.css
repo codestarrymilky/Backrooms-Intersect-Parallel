@@ -1,0 +1,58 @@
+:is(.class-L, .class-循环,.class-循環).top-box, :is(.class-L, .class-循环,.class-循環).diamond-color {
+    background: rgb(var(--class-l));
+}
+
+:is(.class-L, .class-循环,.class-循環).top-box::before,
+:is(.class-L, .class-循环,.class-循環).top-box .header-diamond .diamond-pattern{
+  opacity: 0.5;
+}
+
+:is(.class-L, .class-循环,.class-循環).top-box .header-diamond{
+  filter: grayscale(100%);
+}
+
+:is(.class-L, .class-循环,.class-循環).top-box .gradient-box{
+  background: none;
+}
+
+
+:is(.class-L, .class-循环,.class-循環).top-box .bottom-text p {
+  display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-L, .class-循环,.class-循環).top-box .bottom-text::after {
+    content: "等级 循环";
+}
+
+.lang-tr :is(.class-L, .class-循环,.class-循環.top-box .bottom-text::after {
+    content: "等級 循環";
+}
+
+:is(.class-L, .class-循环,.class-循環).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-l) center/80% no-repeat;
+            mask: var(--img-l) center/80% no-repeat;
+}
+
+:is(.class-L, .class-循环,.class-循環).bottom-box ul li{
+  color: var(--class-l-other);
+}
+
+:is(.class-L, .class-循环,.class-循環).bottom-box ul li::before{
+  background: var(--class-l-other);
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-L, .class-循环,.class-循環).bottom-box ul li:nth-child(1) > .default::after {
+    content: "循环事件";
+}
+.lang-tr :is(.class-L, .class-循环,.class-循環).bottom-box ul li:nth-child(1) > .default::after {
+    content: "循環事件";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-L, .class-循环,.class-循環).bottom-box ul li:nth-child(2) > .default::after {
+    content: "周而复始";
+}
+.lang-tr :is(.class-L, .class-循环,.class-循環).bottom-box ul li:nth-child(2) > .default::after {
+    content: "周而復始";
+}
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-L, .class-循环,.class-循環).bottom-box ul li:nth-child(3) > .default::after {
+    content: "往往不息";
+}
