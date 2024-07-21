@@ -24,7 +24,7 @@
     content: "等级 循环";
 }
 
-.lang-tr :is(.class-L, .class-循环,.class-循環.top-box .bottom-text::after {
+.lang-tr :is(.class-L, .class-循环,.class-循環).top-box .bottom-text::after {
     content: "等級 循環";
 }
 
