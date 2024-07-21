@@ -35,6 +35,7 @@
     --class-A: 208,133,185;
     --class-j: 205,238,255;
     --class-l: 255,255,255;
+    --class-l-other: 40,40,40;
     --class-c: var(--class-l);
     --class-s: 151,127,215;
     --class-i: 225,153,152;
