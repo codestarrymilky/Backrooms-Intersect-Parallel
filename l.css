@@ -2,6 +2,10 @@
     background: rgb(var(--class-l));
 }
 
+:is(.class-L, .class-循环,.class-循環).top-box{
+    border: solid rgb(var(--sdex-border));
+}
+
 :is(.class-L, .class-循环,.class-循環).top-box::before,
 :is(.class-L, .class-循环,.class-循環).top-box .header-diamond .diamond-pattern{
   opacity: 0.5;
