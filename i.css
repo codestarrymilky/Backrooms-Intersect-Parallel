@@ -17,8 +17,8 @@
 }
 
 :is(.class-I, .class-非人).top-box .header-diamond .diamond-image {
-    -webkit-mask: var(--img-i) center/40% no-repeat;
-            mask: var(--img-i) center/40% no-repeat;
+    -webkit-mask: var(--img-i) center/55% no-repeat;
+            mask: var(--img-i) center/55% no-repeat;
 }
 
 
