@@ -1,0 +1,42 @@
+:is(.class-W, .class-文明).top-box{
+    border: solid rgb(var(--sdex-border));
+    border-width: 0.65rem 0.3125rem;
+}
+
+:is(.class-W, .class-文明).top-box, :is(.class-W, .class-文明).diamond-color {
+    background: rgb(var(--class-w));
+}
+
+
+:is(.class-W, .class-文明).top-box .bottom-text p {
+  display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-W, .class-文明).top-box .bottom-text::after {
+    content: "文明";
+}
+
+:is(.class-W, .class-文明).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-w) center/80% no-repeat;
+            mask: var(--img-w) center/80% no-repeat;
+}
+
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-W, .class-文明).bottom-box ul li:nth-child(1) > .default::after {
+    content: "大型建筑群落";
+}
+.lang-tr :is(.class-W, .class-文明).bottom-box ul li:nth-child(1) > .default::after {
+    content: "大型建築群落";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-W, .class-文明).bottom-box ul li:nth-child(2) > .default::after {
+    content: "潜在文化差异";
+}
+.lang-tr :is(.class-W, .class-文明).bottom-box ul li:nth-child(2) > .default::after {
+    content: "潛在文化差異";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-W, .class-文明).bottom-box ul li:nth-child(3) > .default::after {
+    content: "智慧实体聚集";
+}
+.lang-tr :is(.class-W, .class-文明).bottom-box ul li:nth-child(3) > .default::after {
+    content: "智慧實體聚集";
+}
