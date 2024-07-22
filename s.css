@@ -17,8 +17,8 @@
 }
 
 :is(.class-S, .class-群星).top-box .header-diamond .diamond-image {
-    -webkit-mask: var(--img-s) center/40% no-repeat;
-            mask: var(--img-s) center/40% no-repeat;
+    -webkit-mask: var(--img-s) center/70% no-repeat;
+            mask: var(--img-s) center/70% no-repeat;
 }
 
 
