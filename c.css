@@ -1,0 +1,61 @@
+:is(.class-C, .class-多变,.class-多變).top-box, :is(.class-C, .class-多变,.class-多變).diamond-color {
+    background: rgb(var(--class-c));
+}
+
+:is(.class-C, .class-多变,.class-多變).top-box::before,
+:is(.class-C, .class-多变,.class-多變).top-box .header-diamond .diamond-pattern{
+  opacity: 0.5;
+}
+
+:is(.class-C, .class-多变,.class-多變).top-box .header-diamond{
+  filter: grayscale(100%);
+}
+
+:is(.class-C, .class-多变,.class-多變).top-box .gradient-box{
+  background: none;
+}
+
+
+:is(.class-C, .class-多变,.class-多變).top-box .bottom-text p {
+  display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-C, .class-多变,.class-多變).top-box .bottom-text::after {
+    content: "等级 多变";
+}
+
+.lang-tr :is(.class-C, .class-多变,.class-多變).top-box .bottom-text::after {
+    content: "等級 多變";
+}
+
+:is(.class-C, .class-多变,.class-多變).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-c) center/80% no-repeat;
+            mask: var(--img-c) center/80% no-repeat;
+}
+
+:is(.class-C, .class-多变,.class-多變).bottom-box ul li{
+  color: rgb(var(--class-c-other));
+}
+
+:is(.class-C, .class-多变,.class-多變).bottom-box ul li::before{
+  background: rgb(var(--class-c-other));
+}
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-C, .class-多变,.class-多變).bottom-box ul li:nth-child(1) > .default::after {
+    content: "时好时坏";
+}
+.lang-tr :is(.class-C, .class-多变,.class-多變).bottom-box ul li:nth-child(1) > .default::after {
+    content: "時好時壞";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-C, .class-多变,.class-多變).bottom-box ul li:nth-child(2) > .default::after {
+    content: "极不稳定";
+}
+.lang-tr :is(.class-C, .class-多变,.class-多變).bottom-box ul li:nth-child(2) > .default::after {
+    content: "極不穩定";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-C, .class-多变,.class-多變).bottom-box ul li:nth-child(3) > .default::after {
+    content: "无法确定";
+}
+.lang-tr :is(.class-C, .class-多变,.class-多變).bottom-box ul li:nth-child(3) > .default::after {
+    content: "無法確定";
+}
