@@ -13,7 +13,7 @@
 }
 
 :is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-S, .class-群星).top-box .bottom-text::after {
-    content: "多变";
+    content: "群星";
 }
 
 :is(.class-S, .class-群星).top-box .header-diamond .diamond-image {
