@@ -1,0 +1,42 @@
+:is(.class-I, .class-非人).top-box{
+    border: solid rgb(var(--sdex-border));
+    border-width: 0.65rem 0.3125rem;
+}
+
+:is(.class-I, .class-非人).top-box, :is(.class-I, .class-非人).diamond-color {
+    background: rgb(var(--class-i));
+}
+
+
+:is(.class-I, .class-非人).top-box .bottom-text p {
+  display: none;
+}
+
+:is(.sd-container[class*="{"], .lang-cn, .lang-tr) :is(.class-I, .class-非人).top-box .bottom-text::after {
+    content: "非人";
+}
+
+:is(.class-I, .class-非人).top-box .header-diamond .diamond-image {
+    -webkit-mask: var(--img-i) center/80% no-repeat;
+            mask: var(--img-i) center/80% no-repeat;
+}
+
+
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-I, .class-非人).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不适宜活动";
+}
+.lang-tr :is(.class-I, .class-非人).bottom-box ul li:nth-child(1) > .default::after {
+    content: "不適宜活動";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-I, .class-非人).bottom-box ul li:nth-child(2) > .default::after {
+    content: "非人类空间";
+}
+.lang-tr :is(.class-I, .class-非人).bottom-box ul li:nth-child(2) > .default::after {
+    content: "非人類空間";
+}
+:is(.sd-container[class*="{"], .lang-cn) :is(.class-I, .class-非人).bottom-box ul li:nth-child(3) > .default::after {
+    content: "适宜非人类存在";
+}
+.lang-tr :is(.class-I, .class-非人).bottom-box ul li:nth-child(3) > .default::after {
+    content: "適宜非人類存在";
+}
