@@ -1,3 +1,7 @@
+:is(.class-C, .class-多变,.class-多變).top-box{
+    border: solid rgb(var(--sdex-border));
+}
+
 :is(.class-C, .class-多变,.class-多變).top-box, :is(.class-C, .class-多变,.class-多變).diamond-color {
     background: rgb(var(--class-c));
 }
