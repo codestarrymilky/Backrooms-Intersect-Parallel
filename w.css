@@ -17,8 +17,8 @@
 }
 
 :is(.class-W, .class-文明).top-box .header-diamond .diamond-image {
-    -webkit-mask: var(--img-w-o) center/80% no-repeat;
-            mask: var(--img-w-o) center/80% no-repeat;
+    -webkit-mask-image: var(--img-w-o) center/80% no-repeat;
+            mask-image: var(--img-w-o) center/80% no-repeat;
 }
 
 
