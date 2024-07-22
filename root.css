@@ -3,6 +3,7 @@
 /* ============基础样式变量============ */
     --sd-font: Poppins, Inter, Noto Sans SC, Noto Sans TC, Arimo, Verdana, Geneva, sans-serif;
     --sd-border: var(--gray-monochrome);
+    --sdex-border: 88,26,25;
     --sd-border-secondary: 0, 0, 0;
     --sd-border-deadzone: 20, 0, 0;
     --sd-symbol: var(--sd-border);
