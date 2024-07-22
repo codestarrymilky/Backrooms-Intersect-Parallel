@@ -26,11 +26,11 @@
 }
 
 :is(.sd-container[class*="{"], .lang-cn) :is(.class-L, .class-循环,.class-循環).top-box .bottom-text::after {
-    content: "等级 循环";
+    content: "循环";
 }
 
 .lang-tr :is(.class-L, .class-循环,.class-循環).top-box .bottom-text::after {
-    content: "等級 循環";
+    content: "循環";
 }
 
 :is(.class-L, .class-循环,.class-循環).top-box .header-diamond .diamond-image {
