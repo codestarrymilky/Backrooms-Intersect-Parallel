@@ -4,6 +4,7 @@
 
 :is(.class-L, .class-循环,.class-循環).top-box{
     border: solid rgb(var(--sdex-border));
+    border-width: 0.65rem 0.3125rem;
 }
 
 :is(.class-L, .class-循环,.class-循環).top-box::before,
