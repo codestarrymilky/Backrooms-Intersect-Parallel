@@ -17,7 +17,7 @@
 }
 
 :is(.class-W, .class-文明).top-box .header-diamond .diamond-image::before {
-    background: no-repeat center/80% var(--img-w);
+    content: var(--img-w);
 }
 
 
