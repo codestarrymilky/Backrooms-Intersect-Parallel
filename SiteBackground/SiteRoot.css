@@ -1,0 +1,47 @@
+
+:root {
+   --theme-base: "black-highlighter";
+   --theme-id: "UX";
+   --theme-name: "UX Theme";
+ 
+   --theme-base: "black-highlighter";
+   --logo-image: url("");
+   --header-title: "平行与相交";
+   --header-subtitle: "The Backrooms";
+
+    --swatch-headerh1-color: var(--white-monochrome);
+    --swatch-headerh2-color: var(--white-monochrome);
+    --swatch-topmenu-border-color: var(--bright-other-accent);
+   --swatch-topmenu-bg-color: var(--gray-monochrome);
+
+   --white-monochrome: 242, 242, 242;
+   --pale-gray-monochrome: 220, 236, 242;
+   --light-gray-monochrome: 172, 202, 242;
+   --dark-gray-monochrome: 63, 94, 136;
+   --gray-monochrome: 41, 73, 166;
+   --dark-accent: 22, 45, 115;
+   --bright-accent: var(--gray-monochrome);
+   --bright-other-accent: 173, 192, 217;
+   --medium-accent: 10, 93, 166;
+   --black-monochrome: 34, 47, 64;
+   --pale-accent: 60, 84, 115;
+ 
+
+
+   --link-color: var(--medium-accent);
+   --hover-link-color: var(--dark-accent);
+   --visited-link-color: 13, 65, 174;
+   --newpage-color: 88, 101, 166;
+
+     --header-height-on-desktop: 9rem;
+     --wallpaper-mask-size: 2.3rem;
+     --wallpaper-mask: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22windows-1252%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xml%3Aspace%3D%22preserve%22%20width%3D%22106.667%22%20height%3D%22154.667%22%3E%3Cpath%20d%3D%22M72.547%201158.57H5.074V-6.465h67.473V1158.57M119.027%20710.25v-58.977l126.95%20154.438L363.43%20654.77v61.476L246.477%20865.688%20119.027%20710.25%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%20transform%3D%22matrix%28.13305%200%200%20-.13255%20-.633%20153.92%29%22%2F%3E%3Cpath%20d%3D%22M119.027%20951.652V790.715l125.45%20153.441L363.43%20792.715v166.933L247.477%201108.09l-128.45-156.438M763.27%201158.57h-63.473l63.473-80.97ZM472.387%201158.57h-67.473V-6.465h67.473V1158.57M518.867%20995.133v-58.977L645.816%201090.6%20763.27%20939.656v61.474l-116.954%20149.44-127.449-155.437M763.27%20657.27%20647.316%20805.711%20518.867%20649.273V488.336l125.449%20153.441L763.27%20490.336V657.27M518.867%201158.57v-82.97l67.973%2082.97z%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%20transform%3D%22matrix%28.13305%200%200%20-.13255%20-.633%20153.92%29%22%2F%3E%3Cpath%20d%3D%22M763.27%20413.867%20646.316%20563.309%20518.867%20407.867v-58.972l126.949%20154.437L763.27%20352.391v61.476M363.43%20128.98%20246.477%20278.422l-127.45-155.438V64.008l126.95%20154.437L363.43%2067.504v61.476%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%20transform%3D%22matrix%28.13305%200%200%20-.13255%20-.633%20153.92%29%22%2F%3E%3Cpath%20d%3D%22M363.43%20205.449v166.934L247.477%20520.824l-128.45-156.437V203.449l125.45%20153.442L363.43%20205.449M518.867%2071.504V-6.465h67.973l57.476%2070.473%2055.481-70.473h63.473V79.5L647.316%20227.941%20518.867%2071.504%22%20style%3D%22fill%3A%23333%3Bfill-opacity%3A1%3Bfill-rule%3Anonzero%3Bstroke%3Anone%22%20transform%3D%22matrix%28.13305%200%200%20-.13255%20-.633%20153.92%29%22%2F%3E%3C%2Fsvg%3E);
+
+   --gradient-header: linear-gradient(to top,
+      rgba(var(--bright-other-accent),0) 0%,
+      rgba(var(--gray-monochrome),.4) 5rem
+   ),linear-gradient(to top left,
+      rgba(var(--bright-other-accent),0) 0%,
+      rgba(var(--gray-monochrome),.6) 100%
+   );
+}
