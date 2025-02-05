@@ -1,0 +1,17 @@
+@import url("./basic/root.css");
+@import url("./basic/basic.css");
+@import url("./basic/adaptation.css");
+@import url("./basic/custom.css");
+
+
+/* CLASS */
+@import url("./Increase-level/spirit.css");
+@import url("./Increase-level/environment/e.css");
+@import url("./Increase-level/environment/1e.css");
+@import url("./Increase-level/environment/2e.css");
+@import url("./Increase-level/environment/3e.css");
+@import url("./Increase-level/environment/4e.css");
+@import url("./Increase-level/environment/5e.css");
+@import url("./Increase-level/a.css");
+@import url("./Increase-level/j.css");
+@import url("./Increase-level/ch.css");
